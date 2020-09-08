@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import alanBtn from '@alan-ai/alan-sdk-web';
 
+import NewsCards from './components/NewsCards/NewsCards';
+
 const alanKey = process.env.REACT_APP_ALAN_KEY;
 
 const App = () => {
@@ -11,7 +13,6 @@ const App = () => {
       key: alanKey,
       onCommand: ({ command, articles }) => {
         if (command === 'newHeadlines') {
-          
         }
       },
     });
