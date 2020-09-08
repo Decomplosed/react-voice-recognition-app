@@ -7,7 +7,7 @@ const NewsCards = ({ articles }) => {
     <Grid in>
       <Grid container alignItems='stretch' spacing={3}>
         {articles.map((article, i) => (
-          <Grid item>
+          <Grid item xs={12} sm={6}>
             <NewsCard key={i} article={article} />
           </Grid>
         ))}
