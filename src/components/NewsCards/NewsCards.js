@@ -4,11 +4,11 @@ import NewsCard from '../NewsCard/NewsCard';
 
 const NewsCards = ({ articles }) => {
   return (
-    <div>
+    <Grid in>
       {articles.map((article, i) => (
         <NewsCard key={i} />
       ))}
-    </div>
+    </Grid>
   );
 };
 
