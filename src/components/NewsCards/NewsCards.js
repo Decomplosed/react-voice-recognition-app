@@ -5,9 +5,11 @@ import NewsCard from '../NewsCard/NewsCard';
 const NewsCards = ({ articles }) => {
   return (
     <Grid in>
-      {articles.map((article, i) => (
-        <NewsCard key={i} />
-      ))}
+      <Grid container alignItems='stretch'>
+        {articles.map((article, i) => (
+          <NewsCard key={i} />
+        ))}
+      </Grid>
     </Grid>
   );
 };
