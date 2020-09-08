@@ -7,3 +7,5 @@ const NewsCard = () => {
     </div>
   );
 };
+
+export default NewsCard;
