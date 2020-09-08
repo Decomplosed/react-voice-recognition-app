@@ -5,7 +5,7 @@ const NewsCards = ({ articles }) => {
   return (
     <div>
       {articles.map((article, i) => (
-        <NewsCard />
+        <NewsCard key={i} />
       ))}
     </div>
   );
