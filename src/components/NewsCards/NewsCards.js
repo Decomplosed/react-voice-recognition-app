@@ -1,6 +1,6 @@
 import React from 'react';
 
-const NewsCard = () => {
+const NewsCard = ({ articles }) => {
   return (
     <div>
       <h1>NewsCards</h1>
