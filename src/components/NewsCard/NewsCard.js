@@ -10,7 +10,7 @@ import {
 } from '@material-ui/core';
 
 const NewsCard = ({
-  article: { description, publishedAt, source, title, url },
+  article: { description, publishedAt, source, title, url, urlToImage },
   i,
 }) => {
   return (
