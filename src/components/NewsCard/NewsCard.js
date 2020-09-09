@@ -9,7 +9,7 @@ import {
   Typography,
 } from '@material-ui/core';
 
-const NewsCard = ({ article }) => {
+const NewsCard = ({ article, i }) => {
   return (
     <Card>
       <CardActionArea>
