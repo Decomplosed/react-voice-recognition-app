@@ -28,6 +28,7 @@ const NewsCard = () => {
             h2
           ></Typography>
         </div>
+        <Typography gutterBottom variant='h5' ></Typography>
       </CardActionArea>
     </Card>
   );
