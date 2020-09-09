@@ -13,9 +13,21 @@ const NewsCard = () => {
   return (
     <Card>
       <CardActionArea>
-        <CardMedia>
-          
-        </CardMedia>
+        <CardMedia />
+        <div>
+          <Typography
+            vairant='body2'
+            color='textSecondary'
+            component=''
+            h2
+          ></Typography>
+          <Typography
+            vairant='body2'
+            color='textSecondary'
+            component=''
+            h2
+          ></Typography>
+        </div>
       </CardActionArea>
     </Card>
   );
