@@ -26,12 +26,9 @@ const NewsCard = ({
           <Typography vairant='body2' color='textSecondary' component='' h2>
             {new Date(publishedAt).toDateString()}
           </Typography>
-          <Typography
-            vairant='body2'
-            color='textSecondary'
-            component=''
-            h2
-          ></Typography>
+          <Typography vairant='body2' color='textSecondary' component='' h2>
+            {source.name}
+          </Typography>
         </div>
         <Typography gutterBottom variant='h5'></Typography>
         <CardContent>
