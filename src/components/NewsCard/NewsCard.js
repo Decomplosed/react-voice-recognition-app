@@ -17,6 +17,7 @@ const NewsCard = ({
     <Card>
       <CardActionArea>
         <CardMedia
+          className={classes.media}
           image={
             urlToImage ||
             'https://www.industry.gov.au/sites/default/files/August%202018/image/news-placeholder-738.png'
