@@ -12,7 +12,9 @@ import {
 const NewsCard = () => {
   return (
     <Card>
-
+      <CardActionArea>
+        
+      </CardActionArea>
     </Card>
   );
 };
