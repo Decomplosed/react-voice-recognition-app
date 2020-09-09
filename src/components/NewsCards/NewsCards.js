@@ -10,7 +10,7 @@ const NewsCards = ({ articles }) => {
   return (
     <Grow in>
       <Grid
-        classname={classes.container}
+        className={classes.container}
         container
         alignItems='stretch'
         spacing={3}
