@@ -11,9 +11,9 @@ import {
 
 const NewsCard = () => {
   return (
-    <div>
-      <h1>NewsCard</h1>
-    </div>
+    <Card>
+
+    </Card>
   );
 };
 
