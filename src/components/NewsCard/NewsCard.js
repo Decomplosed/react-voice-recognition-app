@@ -1,5 +1,13 @@
 import React from 'react';
-import { Grid, Grow, Typography } from '@material-ui/core';
+import {
+  Card,
+  CardActions,
+  CardActionArea,
+  CardContent,
+  CardMedia,
+  Button,
+  Typography,
+} from '@material-ui/core';
 
 const NewsCard = () => {
   return (
