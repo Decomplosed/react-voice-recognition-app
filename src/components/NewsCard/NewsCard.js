@@ -15,6 +15,8 @@ const NewsCard = ({
   article: { description, publishedAt, source, title, url, urlToImage },
   i,
 }) => {
+  const classes = useStyles();
+
   return (
     <Card>
       <CardActionArea>
