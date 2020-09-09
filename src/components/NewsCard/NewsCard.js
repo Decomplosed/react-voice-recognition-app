@@ -30,7 +30,9 @@ const NewsCard = ({
             {source.name}
           </Typography>
         </div>
-        <Typography gutterBottom variant='h5'></Typography>
+        <Typography gutterBottom variant='h5'>
+          {title}
+        </Typography>
         <CardContent>
           <Typography
             variant='body2'
