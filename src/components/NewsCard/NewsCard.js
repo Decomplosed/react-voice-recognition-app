@@ -16,14 +16,16 @@ const NewsCard = ({
   return (
     <Card>
       <CardActionArea>
-        <CardMedia image={urlToImage || 'https://www.industry.gov.au/sites/default/files/August%202018/image/news-placeholder-738.png'} />
+        <CardMedia
+          image={
+            urlToImage ||
+            'https://www.industry.gov.au/sites/default/files/August%202018/image/news-placeholder-738.png'
+          }
+        />
         <div>
-          <Typography
-            vairant='body2'
-            color='textSecondary'
-            component=''
-            h2
-          ></Typography>
+          <Typography vairant='body2' color='textSecondary' component='' h2>
+            {new Date(publishedAt).toDateString()}
+          </Typography>
           <Typography
             vairant='body2'
             color='textSecondary'
