@@ -43,7 +43,9 @@ const NewsCard = ({
         <Button size='small' color='primary'>
           Learn More
         </Button>
-        <Typography variant='h5' color='textSecondary'></Typography>
+        <Typography variant='h5' color='textSecondary'>
+          {i + 1}
+        </Typography>
       </CardActions>
     </Card>
   );
