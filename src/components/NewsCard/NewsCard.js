@@ -40,7 +40,9 @@ const NewsCard = ({
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size='small' color='primary'></Button>
+        <Button size='small' color='primary'>
+          Learn More
+        </Button>
         <Typography variant='h5' color='textSecondary'></Typography>
       </CardActions>
     </Card>
