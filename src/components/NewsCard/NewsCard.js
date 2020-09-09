@@ -13,7 +13,9 @@ const NewsCard = () => {
   return (
     <Card>
       <CardActionArea>
-        
+        <CardMedia>
+          
+        </CardMedia>
       </CardActionArea>
     </Card>
   );
