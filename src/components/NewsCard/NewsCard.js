@@ -37,6 +37,9 @@ const NewsCard = () => {
           ></Typography>
         </CardContent>
       </CardActionArea>
+      <CardActions>
+        
+      </CardActions>
     </Card>
   );
 };
