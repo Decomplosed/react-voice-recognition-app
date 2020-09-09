@@ -34,11 +34,9 @@ const NewsCard = ({
           {title}
         </Typography>
         <CardContent>
-          <Typography
-            variant='body2'
-            color='textSecondary'
-            component='p'
-          ></Typography>
+          <Typography variant='body2' color='textSecondary' component='p'>
+            {description}
+          </Typography>
         </CardContent>
       </CardActionArea>
       <CardActions>
