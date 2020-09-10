@@ -17,6 +17,11 @@ const styles = makeStyles({
     borderRadius: 10,
     color: 'white',
   },
+  infoCard: {
+    display: 'flex',
+    flexDirection: 'column',
+    textAlign: 'center',
+  },
 });
 
 export default styles;
