@@ -10,4 +10,10 @@ export default makeStyles({
   fullHeightCard: {
     height: '100%',
   },
+  card: {
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'space-between',
+    borderBottom: '10px solid white',
+  },
 });
