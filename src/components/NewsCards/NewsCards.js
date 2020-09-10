@@ -40,7 +40,7 @@ const NewsCards = ({ articles }) => {
           spacing={3}
         >
           {infoCards.map((infoCard) => (
-            <Grid item></Grid>
+            <Grid item xs={12} sm={6} md={4} lg={3}></Grid>
           ))}
         </Grid>
       </Grow>
