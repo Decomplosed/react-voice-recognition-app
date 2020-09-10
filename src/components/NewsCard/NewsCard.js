@@ -28,10 +28,10 @@ const NewsCard = ({
           }
         />
         <div className={classes.details}>
-          <Typography vairant='body2' color='textSecondary' component='' h2>
+          <Typography vairant='body2' color='textSecondary' component='' h2='true'>
             {new Date(publishedAt).toDateString()}
           </Typography>
-          <Typography vairant='body2' color='textSecondary' component='' h2>
+          <Typography vairant='body2' color='textSecondary' component='' h2='true'>
             {source.name}
           </Typography>
         </div>
