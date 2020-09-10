@@ -19,7 +19,7 @@ const NewsCard = ({
 
   return (
     <Card className={classes.card}>
-      <CardActionArea>
+      <CardActionArea href={url} target='_blank'>
         <CardMedia
           className={classes.media}
           image={
