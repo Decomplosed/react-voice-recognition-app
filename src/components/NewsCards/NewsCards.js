@@ -48,7 +48,10 @@ const NewsCards = ({ articles }) => {
               lg={3}
               className={classes.infoCard}
             >
-              <div className={classes.card}></div>
+              <div
+                className={classes.card}
+                style={{ backgroundColor: infoCard.color }}
+              ></div>
             </Grid>
           ))}
         </Grid>
