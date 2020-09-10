@@ -57,6 +57,7 @@ const NewsCards = ({ articles }) => {
                   <Typography variant='h6'>
                     <strong>{infoCard.title.split(' ')[2]}</strong>
                     <br />
+                    {infoCard.info}
                   </Typography>
                 ) : null}
               </div>
