@@ -27,7 +27,7 @@ const NewsCard = ({
             'https://www.industry.gov.au/sites/default/files/August%202018/image/news-placeholder-738.png'
           }
         />
-        <div>
+        <div className={classes.details}>
           <Typography vairant='body2' color='textSecondary' component='' h2>
             {new Date(publishedAt).toDateString()}
           </Typography>
