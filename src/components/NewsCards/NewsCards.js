@@ -39,7 +39,9 @@ const NewsCards = ({ articles }) => {
           alignItems='stretch'
           spacing={3}
         >
-          {infoCards.map(infoCard => ())}
+          {infoCards.map((infoCard) => (
+            <Grid item></Grid>
+          ))}
         </Grid>
       </Grow>
     );
