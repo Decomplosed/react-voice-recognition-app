@@ -60,7 +60,7 @@ const NewsCards = ({ articles }) => {
                     {infoCard.info}
                   </Typography>
                 ) : null}
-                <Typography></Typography>
+                <Typography variant='h6'></Typography>
               </div>
             </Grid>
           ))}
