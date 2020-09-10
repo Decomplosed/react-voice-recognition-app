@@ -18,7 +18,7 @@ const NewsCard = ({
   const classes = useStyles();
 
   return (
-    <Card>
+    <Card className={classes.card}>
       <CardActionArea>
         <CardMedia
           className={classes.media}
