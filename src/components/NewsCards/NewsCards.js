@@ -38,7 +38,9 @@ const NewsCards = ({ articles }) => {
           container
           alignItems='stretch'
           spacing={3}
-        ></Grid>
+        >
+          {infoCards.map(infoCard => ())}
+        </Grid>
       </Grow>
     );
   }
