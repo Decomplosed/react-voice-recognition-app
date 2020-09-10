@@ -27,4 +27,7 @@ export default makeStyles({
     justifyContent: 'space-between',
     margin: '20px',
   },
+  title: {
+    padding: '0 16px',
+  },
 });
