@@ -8,6 +8,16 @@ const NewsCards = ({ articles }) => {
   const classes = useStyles();
 
   if (!articles.length) {
+    return (
+      <Grow in>
+        <Grid
+          className={classes.container}
+          container
+          alignItems='stretch'
+          spacing={3}
+        ></Grid>
+      </Grow>
+    );
   }
 
   return (
