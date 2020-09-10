@@ -53,6 +53,11 @@ const NewsCards = ({ articles }) => {
                 style={{ backgroundColor: infoCard.color }}
               >
                 <Typography variant='h5'>{infoCard.title}</Typography>
+                {infoCard.info ? (
+                  <Typography variant='h6'>
+                    <strong>{infoCard.title.split(' ')[2]}</strong>
+                  </Typography>
+                ) : null}
               </div>
             </Grid>
           ))}
