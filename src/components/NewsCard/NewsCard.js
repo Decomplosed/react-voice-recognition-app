@@ -44,7 +44,7 @@ const NewsCard = ({
           </Typography>
         </CardContent>
       </CardActionArea>
-      <CardActions>
+      <CardActions className={classes.cardActions}>
         <Button size='small' color='primary'>
           Learn More
         </Button>
