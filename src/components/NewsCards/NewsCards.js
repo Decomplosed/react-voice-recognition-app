@@ -47,7 +47,9 @@ const NewsCards = ({ articles }) => {
               md={4}
               lg={3}
               className={classes.infoCard}
-            ></Grid>
+            >
+              <div className={classes.card}></div>
+            </Grid>
           ))}
         </Grid>
       </Grow>
