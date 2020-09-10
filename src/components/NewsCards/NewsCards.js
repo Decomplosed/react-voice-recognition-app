@@ -7,6 +7,9 @@ import NewsCard from '../NewsCard/NewsCard';
 const NewsCards = ({ articles }) => {
   const classes = useStyles();
 
+  if (!articles.length) {
+  }
+
   return (
     <Grow in>
       <Grid
