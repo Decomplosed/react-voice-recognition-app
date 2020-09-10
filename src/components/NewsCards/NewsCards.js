@@ -51,7 +51,9 @@ const NewsCards = ({ articles }) => {
               <div
                 className={classes.card}
                 style={{ backgroundColor: infoCard.color }}
-              ></div>
+              >
+                <Typography variant='h5'></Typography>
+              </div>
             </Grid>
           ))}
         </Grid>
